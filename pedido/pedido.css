@@ -1,0 +1,73 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Libre Baskerville;
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Libre Baskerville;
+}
+.container-fluid{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.lista{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-left: 70%;
+font-size: 18px;
+}
+
+.lista li{
+margin: 20px;
+list-style: none;
+margin-top: 2px;
+
+
+}
+.lista li a{
+text-decoration: none;
+cursor: pointer;
+color: #000000;
+
+}
+.lista li a:hover{
+
+color: rgb(64, 134, 73);
+
+}
+.logo{
+width: 35%;
+height: 60px;
+margin-top: 20px;
+}
+
+body{
+    background-image:url(fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; }
+
+
+.Pedido{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 150%;
+    background-color: rgb(64, 134, 73);
+    margin-top: 10%;
+    padding: 20PX;
+    
+    
+    
+    }
+.Pedido h2{
+    font-size: 50px;
+    
+    
+    }

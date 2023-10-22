@@ -1,0 +1,148 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Libre Baskerville;
+}
+.lista{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-left: 70%;
+font-size: 18px;
+}
+
+.lista li{
+margin: 20px;
+list-style: none;
+margin-top: 2px;
+
+
+}
+.lista li a{
+text-decoration: none;
+cursor: pointer;
+color: #000000;
+
+}
+.lista li a:hover{
+
+color: rgb(64, 134, 73);
+
+}
+.logo{
+width: 35%;
+height: 60px;
+margin-top: 20px;
+}
+
+body{
+    background-image:url(images/fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+.parrafo{
+    background-color: rgb(64, 134, 73);
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    }
+
+
+.card {
+        margin-top: 20px;
+        display: flex;
+       flex-direction:column
+}      
+
+        
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+   align-items: center;
+
+}
+
+.card-title{
+padding: 50px;
+font-size: 30px;
+
+}
+.card-text{
+ padding: 10px;
+ font-size: 15px;
+
+}
+.btn-primary{
+    margin-left: 100px;
+background-color: rgb(64, 134, 73);
+}
+
+.Pedido{
+align-items: center;
+
+
+
+}
+.Pedido h2{
+text-align: center;
+
+}
+.footer{
+text-align: center;
+font-size: medium;
+
+
+}
+
+@media (min-width: 480px){
+
+
+    nav{
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+   .lista{
+    margin-right: 50px;
+    margin-top: 5px;}
+
+    .lista li{
+        margin: 20px;
+        list-style: none;
+        margin-top: 2px;
+        
+        
+        }
+        .lista li a{
+        text-decoration: none;
+        cursor: pointer;
+        color: #000000;
+        
+        }
+        .lista li a:hover{
+        
+        color: rgb(64, 134, 73);
+        
+        }
+        body{
+            background-image:url(images/fondo.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed; 
+        }
+        .parrafo{
+            background-color: rgb(64, 134, 73);
+            color: aliceblue;
+            font-size: 15px;
+            text-align: center;
+            }
+        
+
+}
+
